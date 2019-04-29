@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mCompartilhar"
+        android:icon="@drawable/ic_compartilhar_dp"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/mCadastrar"
+        android:icon="@drawable/ic_cadastrar_dp"
+        android:title="Cadastrar"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/mSobre"
+        android:icon="@drawable/ic_sobre_dp"
+        android:title="Sobre"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/mMessagem"
+        android:icon="@drawable/ic_mensagem_dp"
+        android:title="Mensagem"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/mAviso"
+        android:icon="@drawable/ic_notificacao_dp"
+        android:title="Aviso"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/mAjuda"
+        android:icon="@drawable/ic_ajuda_dp"
+        android:title="Ajuda"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/mSuporte"
+        android:icon="@drawable/ic_suporte_dp"
+        android:title="Suporte"
+        app:showAsAction="never">
+
+    </item>
+
+
+</menu>
